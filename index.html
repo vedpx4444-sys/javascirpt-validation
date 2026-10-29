@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div id="error" hidden></div>
+    <form id="myform" action="/" method="post">
+      <div> 
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required><br><br>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
